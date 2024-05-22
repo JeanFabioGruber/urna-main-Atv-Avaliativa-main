@@ -26,7 +26,7 @@ body {
     /* Centraliza conteúdo verticalmente */
     font-family: Arial, Helvetica, sans-serif;
     /* Define a fonte */
-    background-color: #000000;
+    background-color: #393939;
     /* Cor de fundo */
 }
 
@@ -40,6 +40,7 @@ body {
     /* Espaçamento interno */
     display: flex;
     /* Usa flexbox para o layout */
+    border-radius: 10px;
 }
 .info-imagem-prefeito{
     display: flex;
@@ -65,6 +66,7 @@ body {
     /* Bordas arredondadas */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     /* Sombra */
+    padding: 10px;
 }
 
 
@@ -74,10 +76,13 @@ body {
 /* Estilo para o teclado */
 
 .teclado {
+    padding: 10px;
     background-color: #000000;
     /* Cor de fundo */
     margin-left: 30px;
     /* Espaçamento à esquerda */
+    border-radius: 10px;
+    border: solid gray 2px;
 }
 
 
@@ -208,7 +213,7 @@ body {
 /* Estilo para as imagens dos candidatos */
 
 .info-imagem {
-    border: 1px solid #999999;
+    border: 1px double #999999;
     /* Borda */
     background-color: #ffffff;
     /* Fundo branco */
@@ -218,7 +223,7 @@ body {
     /* Tamanho da fonte */
     padding: 10px;
     /* Espaçamento interno */
-    max-width: 350px;
+    max-width: 170px;
     /* Largura máxima */
     height: auto;
     /* Altura automática */
@@ -226,6 +231,7 @@ body {
     /* Oculta conteúdo excedente */ 
     display: flex;
     justify-content: center;
+    margin-left: 1px;
 }
 
 
@@ -280,4 +286,14 @@ body {
     /* Tamanho da fonte */
     color: #d9534f;
     /* Cor vermelha */
+}
+
+.info-imagemm{
+    padding: 2px;
+    border: solid black 1px;
+    width: 150px;
+}
+.aviso--grande {
+ margin: 10px;
+ padding: 10px;
 }

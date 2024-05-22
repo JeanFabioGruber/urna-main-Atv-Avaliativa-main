@@ -57,9 +57,9 @@ function atualizaInterface() {
         let fotosHtml = '';
         for (let i in candidato.fotos) {
             if (candidato.fotos[i].small) {
-                fotosHtml += `<div class="info-imagem small"><img src="images/${candidato.fotos[i].url}" alt=""/>${candidato.fotos[i].legenda}</div>`;
+                fotosHtml += `<div class="info-imagemm"><img src="images/${candidato.fotos[i].url}" alt=""/>${candidato.fotos[i].legenda}</div>`;
             } else {
-                fotosHtml += `<div class="info-imagem"><img src="images/${candidato.fotos[i].url}" alt=""/>${candidato.fotos[i].legenda}</div>`;
+                fotosHtml += `<div class="info-imagemm"><img src="images/${candidato.fotos[i].url}" alt=""/>${candidato.fotos[i].legenda}</div>`;
             }
         }
 
@@ -67,7 +67,7 @@ function atualizaInterface() {
     } else {
         seuVotoPara.style.display = 'block'; // Exibe "Seu voto para"
         aviso.style.display = 'block'; // Exibe o aviso
-        descricao.innerHTML = '<div class="aviso--grande pisca">VOTO NULO</div>'; // Exibe aviso de voto nulo
+        descricao.innerHTML = '<div class="aviso--grande Pisca">VOTO NULO</div>'; // Exibe aviso de voto nulo
     }
 }
 
@@ -89,7 +89,6 @@ function clicou(n) {
 function branco() {
     if (numero === '') { // Verifica se nenhum número foi digitado
         votoBranco = true; // Define o voto como em branco
-        seuVotoPara.style.display = 'block'; // Exibe "Seu voto para"
         aviso.style.display = 'block'; // Exibe aviso de voto em branco
         descricao.innerHTML = '<div class="aviso--grande pisca">VOTO EM BRANCO</div>'; // Exibe mensagem de voto em branco
         numeros.innerHTML = ''; // Limpa os campos de números
