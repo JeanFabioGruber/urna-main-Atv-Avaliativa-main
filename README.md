@@ -1,5 +1,5 @@
 Nomes:
-Jean Fabio Gruber
-Ricardo Kauan frydrych
-Ricardo Eichinger Ribeiro
-Gustavo Brasileiro
+Jean Fabio Gruber;
+Ricardo Kauan frydrych;
+Ricardo Eichinger Ribeiro;
+Gustavo Brasileiro;
