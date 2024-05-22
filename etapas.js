@@ -30,7 +30,7 @@ let etapas = [{
             nome: 'R2D2',
             partido: 'AR - Aliança Rebelde',
             fotos: [
-                { url: '3.png', legenda: 'Vereador', small: false }
+                { url: '3.jpg', legenda: 'Vereador', small: false }
             ]
         },
     ]
